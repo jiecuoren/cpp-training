@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>IDESourceControlProjectFavoriteDictionaryKey</key>
+	<false/>
+	<key>IDESourceControlProjectIdentifier</key>
+	<string>EA20CF11-F695-411C-A720-0C0FC1B31F9F</string>
+	<key>IDESourceControlProjectName</key>
+	<string>cpp-training</string>
+	<key>IDESourceControlProjectOriginsDictionary</key>
+	<dict>
+		<key>6667A51A65A18885A063629421EC92AAE35DAEED</key>
+		<string>https://github.com/jiecuoren/cpp-training.git</string>
+		<key>861a406c-534a-0410-8894-cb66d6ee9925++505</key>
+		<string>http://googletest.googlecode.com/svn/trunk</string>
+	</dict>
+	<key>IDESourceControlProjectPath</key>
+	<string>cpp-training/cpp-training.xcodeproj</string>
+	<key>IDESourceControlProjectRelativeInstallPathDictionary</key>
+	<dict>
+		<key>6667A51A65A18885A063629421EC92AAE35DAEED</key>
+		<string>../../..</string>
+		<key>861a406c-534a-0410-8894-cb66d6ee9925++505</key>
+		<string>../../../../googletest-read-only</string>
+	</dict>
+	<key>IDESourceControlProjectRepositoryRootDictionary</key>
+	<dict>
+		<key>861a406c-534a-0410-8894-cb66d6ee9925++505</key>
+		<string>http://googletest.googlecode.com/svn</string>
+	</dict>
+	<key>IDESourceControlProjectURL</key>
+	<string>https://github.com/jiecuoren/cpp-training.git</string>
+	<key>IDESourceControlProjectVersion</key>
+	<integer>111</integer>
+	<key>IDESourceControlProjectWCCIdentifier</key>
+	<string>6667A51A65A18885A063629421EC92AAE35DAEED</string>
+	<key>IDESourceControlProjectWCConfigurations</key>
+	<array>
+		<dict>
+			<key>IDESourceControlRepositoryExtensionIdentifierKey</key>
+			<string>public.vcs.git</string>
+			<key>IDESourceControlWCCIdentifierKey</key>
+			<string>6667A51A65A18885A063629421EC92AAE35DAEED</string>
+			<key>IDESourceControlWCCName</key>
+			<string>cpp-training</string>
+		</dict>
+		<dict>
+			<key>IDESourceControlRepositoryExtensionIdentifierKey</key>
+			<string>public.vcs.subversion</string>
+			<key>IDESourceControlWCCIdentifierKey</key>
+			<string>861a406c-534a-0410-8894-cb66d6ee9925++505</string>
+			<key>IDESourceControlWCCName</key>
+			<string>googletest-read-only</string>
+		</dict>
+	</array>
+</dict>
+</plist>

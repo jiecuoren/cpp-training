@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		DF4312A71B50D6CF00AC5D4F /* gtest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DF4312A61B50D6CF00AC5D4F /* gtest.framework */; };
 		E9954ED91B4EE3C400CA0D39 /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = E9954ED81B4EE3C400CA0D39 /* main.cpp */; };
 		E9954EE11B4EE3DB00CA0D39 /* Algorithm.cpp in Sources */ = {isa = PBXBuildFile; fileRef = E9954EDF1B4EE3DB00CA0D39 /* Algorithm.cpp */; };
 /* End PBXBuildFile section */
@@ -24,6 +25,8 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
+		DF4312A21B50390000AC5D4F /* gtest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = gtest.framework; path = ../../gtest.framework; sourceTree = "<group>"; };
+		DF4312A61B50D6CF00AC5D4F /* gtest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = gtest.framework; path = UnityTest/gtest.framework; sourceTree = "<group>"; };
 		E9954ED51B4EE3C400CA0D39 /* cpp-training */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = "cpp-training"; sourceTree = BUILT_PRODUCTS_DIR; };
 		E9954ED81B4EE3C400CA0D39 /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
 		E9954EDF1B4EE3DB00CA0D39 /* Algorithm.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = Algorithm.cpp; sourceTree = "<group>"; };
@@ -35,6 +38,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				DF4312A71B50D6CF00AC5D4F /* gtest.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -44,6 +48,8 @@
 		E9954ECC1B4EE3C400CA0D39 = {
 			isa = PBXGroup;
 			children = (
+				DF4312A61B50D6CF00AC5D4F /* gtest.framework */,
+				DF4312A21B50390000AC5D4F /* gtest.framework */,
 				E9954ED71B4EE3C400CA0D39 /* cpp-training */,
 				E9954ED61B4EE3C400CA0D39 /* Products */,
 			);
@@ -211,6 +217,12 @@
 		E9954EDD1B4EE3C400CA0D39 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				CLANG_CXX_LIBRARY = "libstdc++";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"/Users/leigu1/work/mine-work",
+					"$(PROJECT_DIR)/UnityTest",
+				);
 				PRODUCT_NAME = "$(TARGET_NAME)";
 			};
 			name = Debug;
@@ -218,6 +230,12 @@
 		E9954EDE1B4EE3C400CA0D39 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				CLANG_CXX_LIBRARY = "libstdc++";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"/Users/leigu1/work/mine-work",
+					"$(PROJECT_DIR)/UnityTest",
+				);
 				PRODUCT_NAME = "$(TARGET_NAME)";
 			};
 			name = Release;
@@ -241,6 +259,7 @@
 				E9954EDE1B4EE3C400CA0D39 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
