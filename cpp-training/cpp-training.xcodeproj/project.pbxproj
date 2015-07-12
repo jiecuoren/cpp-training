@@ -9,7 +9,7 @@
 /* Begin PBXBuildFile section */
 		DF4312A71B50D6CF00AC5D4F /* gtest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DF4312A61B50D6CF00AC5D4F /* gtest.framework */; };
 		DF4312AA1B51884000AC5D4F /* StringOps.cpp in Sources */ = {isa = PBXBuildFile; fileRef = DF4312A81B51884000AC5D4F /* StringOps.cpp */; };
-		DF4312AE1B52417E00AC5D4F /* SingleList.cpp in Sources */ = {isa = PBXBuildFile; fileRef = DF4312AC1B52417E00AC5D4F /* SingleList.cpp */; };
+		DF4312D31B52B1A800AC5D4F /* BMWList.cpp in Sources */ = {isa = PBXBuildFile; fileRef = DF4312CF1B52B1A800AC5D4F /* BMWList.cpp */; };
 		E9954ED91B4EE3C400CA0D39 /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = E9954ED81B4EE3C400CA0D39 /* main.cpp */; };
 		E9954EE11B4EE3DB00CA0D39 /* Algorithm.cpp in Sources */ = {isa = PBXBuildFile; fileRef = E9954EDF1B4EE3DB00CA0D39 /* Algorithm.cpp */; };
 /* End PBXBuildFile section */
@@ -30,8 +30,11 @@
 		DF4312A61B50D6CF00AC5D4F /* gtest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = gtest.framework; path = UnityTest/gtest.framework; sourceTree = "<group>"; };
 		DF4312A81B51884000AC5D4F /* StringOps.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = StringOps.cpp; sourceTree = "<group>"; };
 		DF4312A91B51884000AC5D4F /* StringOps.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = StringOps.h; sourceTree = "<group>"; };
-		DF4312AC1B52417E00AC5D4F /* SingleList.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = SingleList.cpp; sourceTree = "<group>"; };
-		DF4312AD1B52417E00AC5D4F /* SingleList.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SingleList.h; sourceTree = "<group>"; };
+		DF4312CF1B52B1A800AC5D4F /* BMWList.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = BMWList.cpp; path = Template/BMWList.cpp; sourceTree = "<group>"; };
+		DF4312D01B52B1A800AC5D4F /* BMWList.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = BMWList.h; path = Template/BMWList.h; sourceTree = "<group>"; };
+		DF4312D11B52B1A800AC5D4F /* BMWList2.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = BMWList2.h; path = Template/BMWList2.h; sourceTree = "<group>"; };
+		DF4312D21B52B1A800AC5D4F /* BMWList3.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = BMWList3.h; path = Template/BMWList3.h; sourceTree = "<group>"; };
+		DF4312D41B52B1C300AC5D4F /* SingleList.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = SingleList.h; path = Template/SingleList.h; sourceTree = "<group>"; };
 		E9954ED51B4EE3C400CA0D39 /* cpp-training */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = "cpp-training"; sourceTree = BUILT_PRODUCTS_DIR; };
 		E9954ED81B4EE3C400CA0D39 /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
 		E9954EDF1B4EE3DB00CA0D39 /* Algorithm.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = Algorithm.cpp; sourceTree = "<group>"; };
@@ -53,8 +56,11 @@
 		DF4312AF1B52419C00AC5D4F /* DataStructure */ = {
 			isa = PBXGroup;
 			children = (
-				DF4312AC1B52417E00AC5D4F /* SingleList.cpp */,
-				DF4312AD1B52417E00AC5D4F /* SingleList.h */,
+				DF4312D41B52B1C300AC5D4F /* SingleList.h */,
+				DF4312CF1B52B1A800AC5D4F /* BMWList.cpp */,
+				DF4312D01B52B1A800AC5D4F /* BMWList.h */,
+				DF4312D11B52B1A800AC5D4F /* BMWList2.h */,
+				DF4312D21B52B1A800AC5D4F /* BMWList3.h */,
 			);
 			name = DataStructure;
 			sourceTree = "<group>";
@@ -146,8 +152,8 @@
 			buildActionMask = 2147483647;
 			files = (
 				E9954ED91B4EE3C400CA0D39 /* main.cpp in Sources */,
-				DF4312AE1B52417E00AC5D4F /* SingleList.cpp in Sources */,
 				DF4312AA1B51884000AC5D4F /* StringOps.cpp in Sources */,
+				DF4312D31B52B1A800AC5D4F /* BMWList.cpp in Sources */,
 				E9954EE11B4EE3DB00CA0D39 /* Algorithm.cpp in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

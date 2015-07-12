@@ -11,6 +11,7 @@
 
 #include <stdio.h>
 
+template<class T>
 class SingleList
 {
 public:
@@ -19,15 +20,16 @@ public:
     public:
         Node();
         ~Node();
+        T mData;
         Node* mNext;
     };
     
 public:
-    SingleList();
-    ~SingleList();
+    SingleList() {}
+    ~SingleList() {}
     
-public:
-    void initSinglist();
+private:
+    void initSinglist() {}
     
 private:
     Node* mHead;
